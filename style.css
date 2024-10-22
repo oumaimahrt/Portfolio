@@ -110,11 +110,11 @@ span{
 .home-content h3{
     margin-bottom: 2rem;
     margin-top: 1rem;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 .home-content h1{
-    font-size: 7rem;
+    font-size: 6rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
     line-height: 1;
@@ -427,10 +427,10 @@ timeline-content:hover{
 }
 
 .service-box:hover{
-    background: white;
+    background: #ffb266;
     color: black;
     border: 5px solid var(--main-color);
-    transform: scale(1.03);
+    transform: scale(1.05);
 }
 
 .service-box .service-info{
@@ -444,7 +444,7 @@ timeline-content:hover{
 }
 
 .service-info h4{
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 800;
     line-height: 2;
 }

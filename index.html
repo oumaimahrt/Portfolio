@@ -6,14 +6,19 @@
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function() {
+          emailjs.init("izQXTdQCOBHwloQsA"); // Replace 'YOUR_PUBLIC_KEY' with your actual public key from EmailJS.
+      })();
+    </script>
 </head>
 
 <body>
     <header class="header">
-
         <a href="#home" class="logo">Oumaima
-            <span>Hrete</span></a>
-    
+            <span>Hrete</span></a>    
+
             <i class='bx bx-menu' id="menu-icon"></i>
     
             <nav class="navbar">
@@ -21,7 +26,8 @@
                 <a href="#education">Education</a>
                 <a href="#services">Services</a>
                 <a href="#testimonials">Testimonials</a>
-                <a href="#contact">Contact me</a>
+                <a href="/HRETE_OUMAIMA_CV.pdf" download="Oumaima_Hrete_CV.pdf">CV</a>
+                <a href="#contact">Contact</a>
             </nav>
     </header>
 
@@ -29,16 +35,16 @@
         <div class="home-content">
             <h1>Hi, It´s <span>Oumaima</span></h1>
             <h3 class="text-animation"> I´m a <span>Software engineer</span></h3>
-            <p>As a passionate and results-driven software engineer with a robust foundation in computer science and a dedication to delivering high-quality, scalable solutions, I am deeply committed to continuous learning and staying abreast of cutting-edge technology trends. My enthusiasm lies in tackling intricate problems, crafting elegant solutions, and contributing to innovative projects that create a meaningful impact. I am open to exploring new opportunities in software development, where I can leverage my skills to drive innovation and create substantial value.</p>
+            <p> with a robust foundation in computer science and a dedication to delivering high-quality, scalable solutions, I am deeply committed to continuous learning and staying abreast of cutting-edge technology trends. My enthusiasm lies in tackling intricate problems, crafting elegant solutions, and contributing to innovative projects that create a meaningful impact. I am open to exploring new opportunities in software development, where I can leverage my skills to drive innovation and create substantial value.</p>
             <div class="social-icons">
-                <a href="#"><i class='bx bxl-linkedin' ></i></a>
-                <a href="#"><i class='bx bxl-github' ></i></a>
-                <a href="#"><i class='bx bx-x' ></i></a>
-                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="https://www.linkedin.com/in/oumaimahrete/"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/oumaimahrt"><i class='bx bxl-github' ></i></a>
+                <a href="https://x.com/sunshiiine0"><i class='bx bx-x' ></i></a>
+                <a href="https://x.com/sunshiiine0"><i class='bx bxl-twitter' ></i></a>
             </div>
 
             <div class="btn-group">
-                <a href="#" class="btn">Hire</a>
+                <a href="https://www.linkedin.com/in/oumaimahrete/" class="btn">Hire</a>
                 <a href="#contact" class="btn">Contact me</a>
             </div>
         </div>
@@ -53,13 +59,20 @@
         <h2 class="heading">Education</h2>
 
         <div class="timeline-items">
-
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2018</div>
+                    <div class="timeline-content">
+                        <h3>Baccalaureate of Physical Sciences</h3>
+                        <p>Lycee Mohammed V plytechnic</p>
+                    </div>
+            </div>
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                     <div class="timeline-date">2020</div>
                     <div class="timeline-content">
-                        <h3>BTS</h3>
-                        <p>Lycee Mohamed V plythecnic</p>
+                        <h3>BTS Diploma</h3>
+                        <p>Lycee Mohammed V plytechnic</p>
                     </div>
             </div>
 
@@ -69,9 +82,8 @@
                     <div class="timeline-date">2021</div>
                     <div class="timeline-content">
                         <h3>Software Engineering</h3>
-                        <p>University Mohamed V plythecnic</p>
+                        <p>University Mohammed VI Polytechnic</p>
                     </div>
-            
             </div>
         </div>
     </section>
@@ -84,32 +96,28 @@
             <div class="service-box">
                 <div class="service-info">
                     <h4>UI Design</h4>
-                    <p>Salaaam hjjjvjgkjgkjg yfghhhdshhdhshhskjjsba cjhvcsajhbsca
-                        sdchbjsdcsdcdssddscscssacscasjgkkgug jhjhgdgtyukgfjgsg</p>
+                    <p>Using several popular tools for UI design that cater to different aspects of the design process, such as Figma, Canva...</p>
                 </div>
             </div>
 
             <div class="service-box">
                 <div class="service-info">
                     <h4>Frontend Developement</h4>
-                    <p>Salaaam hjjjvjgkjgkjg yfghhhdshhdhshhskjjsba cjhvcsajhbsca
-                        sdchbjsdcsdcdssddscscssacscasjgkkgug jhjhgdgtyukgfjgsg</p>
+                    <p>Using Javascript, Typescript, Reactjs, Nextjs, Vuejs, Angular ...</p>
                 </div>
             </div>
 
             <div class="service-box">
                 <div class="service-info">
                     <h4>Backend Developement</h4>
-                    <p>Salaaam hjjjvjgkjgkjg yfghhhdshhdhshhskjjsba cjhvcsajhbsca
-                        sdchbjsdcsdcdssddscscssacscasjgkkgug jhjhgdgtyukgfjgsg</p>
+                    <p>Using Nodejs, Nestjs, Express...Also Database Management Systems </p>
                 </div>
             </div>
 
             <div class="service-box">
                 <div class="service-info">
                     <h4>Testing</h4>
-                    <p>Salaaam hjjjvjgkjgkjg yfghhhdshhdhshhskjjsba cjhvcsajhbsca
-                        sdchbjsdcsdcdssddscscssacscasjgkkgug jhjhgdgtyukgfjgsg</p>
+                    <p>Identify bugs and issues before deployment, verify that the application performs as expected, and ensure it is user-friendly.</p>
                 </div>
             </div>
 
@@ -155,24 +163,28 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
 
-        <form action="">
+        <form id="contact-form" action="">
             <div class="input-group">
                 <div class="input-box">
-                    <input type="text" 
+                    <input name="Full Name"
+                    type="text" 
                     placeholder="Full Name">
-                    <input type="email"
+                    <input name="Email"
+                    type="email"
                     placeholder="Email">
                 </div>
                 <div class="input-box">
-                    <input type="number"
+                    <input name="Phone Number"
+                    type="phone number"
                     placeholder="Phone Number">
-                    <input type="text"
+                    <input name="Subject"
+                    type="text"
                     placeholder="Subject">
                 </div>
             </div>
-            
+
             <div class="input-group-2">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your messge"></textarea>
+                <textarea name="Your messge" id="" cols="30" rows="10" placeholder="Your messge"></textarea>
                 <input type="submit" value="Send Message" class="btn">
             </div>
         </form>
@@ -180,24 +192,44 @@
 
     <footer class="footer">
         <div class="social">
-            <a href="#"><i class='bx bxl-linkedin' ></i></a>
-            <a href="#"><i class='bx bxl-github' ></i></a>
-            <a href="#"><i class='bx bx-x' ></i></a>
-            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="https://www.linkedin.com/in/oumaimahrete/"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/oumaimahrt"><i class='bx bxl-github' ></i></a>
+            <a href="https://x.com/sunshiiine0"><i class='bx bx-x' ></i></a>
+            <a href="https://x.com/sunshiiine0"><i class='bx bxl-twitter' ></i></a>
         </div>
 
         <ul class="list">
             <li><a href="#">FAQ</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Testimonials</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#home">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="/HRETE_OUMAIMA_CV.pdf" download="Oumaima_Hrete_CV.pdf">CV</a></li>
         </ul>
         <p class="copyright">
             &copy; 2024 Oumaima Hrete | All rights reserved.
         </p>
     </footer>
             
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+    
+            const submitButton = document.querySelector('input[type="submit"]');
+            submitButton.disabled = true;
+    
+            emailjs.sendForm('Oumaima', 'template_xnovo0g', '#contact-form')
+                .then(function(response) {
+                    alert('Message sent successfully!', response.status, response.text);
+
+                    document.getElementById('contact-form').reset();
+                }, function(error) {
+                    alert('Failed to send message. Please try again.', error);
+
+                    submitButton.disabled = false;
+                });
+        });
+    </script>
+    
     <script src="script.js"></script>
 </body>
 
